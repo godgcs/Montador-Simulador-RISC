@@ -1,0 +1,11 @@
+lcl r0,4
+lcl r1,2
+addi r2,4,2
+storei r5,100
+mult r0,r2,r1
+storei r0,101
+div r3,r2,r0
+storei r3,102
+subi r4,2,4
+storei r4,103
+halt

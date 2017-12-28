@@ -1,0 +1,8 @@
+loadi r0,10
+loadi r1,0
+LABEL1:
+beq r1,r0,LABEL2
+inc r1
+j LABEL1
+LABEL2:
+halt

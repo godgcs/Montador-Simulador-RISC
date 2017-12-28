@@ -1,0 +1,11 @@
+lcl r1,1
+lcl r2,5
+passa r3,r2
+LABEL2:
+beq r3,r0, LABEL1
+mult r1,r1,r3
+dec r3
+j LABEL2
+LABEL1:
+storei r1,1000
+halt

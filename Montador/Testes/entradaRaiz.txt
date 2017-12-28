@@ -1,0 +1,3 @@
+sqrt r1,9
+sqrt r2,10
+halt

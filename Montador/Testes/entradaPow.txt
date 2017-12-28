@@ -1,0 +1,15 @@
+pow r1,2,2
+pow r1,2,3
+pow r1,2,4
+pow r1,2,5
+pow r1,2,10
+pow r1,2,20
+pow r1,2,30
+pow r1,2,40
+pow r1,2,50
+pow r2,3,2
+pow r2,4,2
+pow r2,5,2
+pow r2,6,2
+pow r2,7,2
+halt
